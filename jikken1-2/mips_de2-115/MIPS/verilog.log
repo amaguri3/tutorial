@@ -1,0 +1,87 @@
+Host command: /pub1/jikken/eda2/cadence.IUS54_lnx86/tools/verilog/bin/verilog.exe
+Command arguments:
+    -s
+    +gui
+    test_cpu.v
+
+Tool:	VERILOG-XL	05.40.003-s log file created Dec  6, 2012  15:43:46
+Tool:	VERILOG-XL	05.40.003-s   Dec  6, 2012  15:43:46
+
+Copyright (c) 1995-2004 Cadence Design Systems, Inc.  All Rights Reserved.
+Unpublished -- rights reserved under the copyright laws of the United States.
+
+Copyright (c) 1995-2004 UNIX Systems Laboratories, Inc.  Reproduced with Permission.
+
+THIS SOFTWARE AND ON-LINE DOCUMENTATION CONTAIN CONFIDENTIAL INFORMATION
+AND TRADE SECRETS OF CADENCE DESIGN SYSTEMS, INC.  USE, DISCLOSURE, OR
+REPRODUCTION IS PROHIBITED WITHOUT THE PRIOR EXPRESS WRITTEN PERMISSION OF
+CADENCE DESIGN SYSTEMS, INC.
+RESTRICTED RIGHTS LEGEND
+
+Use, duplication, or disclosure by the Government is subject to
+restrictions as set forth in subparagraph (c)(1)(ii) of the Rights in
+Technical Data and Computer Software clause at DFARS 252.227-7013 or
+subparagraphs (c)(1) and (2) of Commercial Computer Software -- Restricted
+Rights at 48 CFR 52.227-19, as applicable.
+
+                Cadence Design Systems, Inc.
+                555 River Oaks Parkway
+                San Jose, California  95134
+
+For technical assistance please contact the Cadence Response Center at
+1-877-CDS-4911 or send email to support@cadence.com
+
+For more information on Cadence's Verilog-XL product line send email to
+talkv@cadence.com
+
+Compiling source file "test_cpu.v"
+Compiling included source file "cpu.v"
+Compiling included source file "rom8x1024_sim.v"
+Continuing compilation of source file "cpu.v"
+Compiling included source file "ram8x2048_sim.v"
+Continuing compilation of source file "cpu.v"
+Compiling included source file "alu.v"
+Continuing compilation of source file "cpu.v"
+Compiling included source file "pc.v"
+Continuing compilation of source file "cpu.v"
+Compiling included source file "registers.v"
+Continuing compilation of source file "cpu.v"
+Compiling included source file "plus4.v"
+Continuing compilation of source file "cpu.v"
+Compiling included source file "adder32.v"
+Continuing compilation of source file "cpu.v"
+Compiling included source file "mux32_32_32.v"
+Continuing compilation of source file "cpu.v"
+Compiling included source file "mux5_5_5.v"
+Continuing compilation of source file "cpu.v"
+Compiling included source file "main_ctrl.v"
+Continuing compilation of source file "cpu.v"
+Compiling included source file "alu_ctrler.v"
+Continuing compilation of source file "cpu.v"
+Compiling included source file "shifter32_32_l2.v"
+Continuing compilation of source file "cpu.v"
+Compiling included source file "signext16_32.v"
+Continuing compilation of source file "cpu.v"
+Compiling included source file "is_branch.v"
+Continuing compilation of source file "cpu.v"
+Continuing compilation of source file "test_cpu.v"
+
+Warning!  Port sizes differ in port connection (port 6)     [Verilog-PCDPC]    
+          "test_cpu.v", 42: o_pc
+Highest level modules:
+test_cpu
+
+Type ? for help
+C1 > // Restoring simulation environment...
+
+C1 > $input(".reinvoke.sim");
+
+C2 > $system("rm .reinvoke.sim");
+
+C3 > $shm_open("waves.shm");
+
+C4 > $shm_probe(test_cpu.clk, test_cpu.clk_ctrl0, test_cpu.clk_ctrl1, test_cpu.clk_ctrl_clk, test_cpu.i_ram_addr[12:0], test_cpu.i_ram_wdata[31:0], test_cpu.i_ram_wen, test_cpu.o_alu_a[31:0], test_cpu.o_alu_b[31:0], test_cpu.o_alu_comp[1:0], test_cpu.o_alu_ctrl[3:0], test_cpu.o_alu_y[31:0], test_cpu.o_clock, test_cpu.o_pc[7:0], test_cpu.o_ram_addr[12:0], test_cpu.o_ram_rdata[31:0], test_cpu.o_ram_wdata[31:0], test_cpu.o_ram_wen, test_cpu.o_reg_data1[31:0], test_cpu.o_reg_data2[31:0], test_cpu.o_reg_idx1[4:0], test_cpu.o_reg_idx2[4:0], test_cpu.o_reg_wdata[31:0], test_cpu.o_reg_wen, test_cpu.o_reg_widx[4:0], test_cpu.reset);
+
+C5 > .
+
+L66 "test_cpu.v": $finish at simulation time 100040
