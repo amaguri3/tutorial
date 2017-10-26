@@ -3,63 +3,67 @@ TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1200mV 85C Model Setup 'p1|altpll_component|auto_generated|pll1|clk[0]'
-Slack : -19.994
-TNS   : -7638.188
-
-Type  : Slow 1200mV 85C Model Setup 'CLOCK_50'
-Slack : -17.404
-TNS   : -3589.625
+Slack : -20.378
+TNS   : -7924.572
 
 Type  : Slow 1200mV 85C Model Setup 'cpu:u9|clock_reg'
-Slack : -16.436
-TNS   : -15763.428
+Slack : -19.359
+TNS   : -18583.059
+
+Type  : Slow 1200mV 85C Model Setup 'CLOCK_50'
+Slack : -18.655
+TNS   : -3775.644
 
 Type  : Slow 1200mV 85C Model Setup 'cpu:u9|bunsyuu_reg[4]'
-Slack : -12.595
-TNS   : -262.734
+Slack : -14.299
+TNS   : -327.885
 
 Type  : Slow 1200mV 85C Model Setup 'cpu:u9|bunsyuu_reg[3]'
-Slack : -2.910
-TNS   : -83.232
+Slack : -3.342
+TNS   : -84.944
 
 Type  : Slow 1200mV 85C Model Setup 'I2C_AV_Config:u3|mI2C_CTRL_CLK'
-Slack : -2.172
-TNS   : -103.188
+Slack : -2.237
+TNS   : -102.964
 
 Type  : Slow 1200mV 85C Model Setup 'KEYBOARD_DEC:u6|keyboard_clk_filt'
-Slack : -1.831
-TNS   : -18.317
+Slack : -1.475
+TNS   : -16.665
 
 Type  : Slow 1200mV 85C Model Setup 'AUDIO_DAC:u4|LRCK_1X'
-Slack : -1.254
-TNS   : -7.114
+Slack : -1.255
+TNS   : -7.120
 
 Type  : Slow 1200mV 85C Model Setup 'AUDIO_DAC:u4|oAUD_BCK'
-Slack : -0.221
-TNS   : -0.431
+Slack : -0.204
+TNS   : -0.393
 
 Type  : Slow 1200mV 85C Model Setup 'p1|altpll_component|auto_generated|pll1|clk[1]'
-Slack : 1.128
+Slack : 1.159
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'p1|altpll_component|auto_generated|pll1|clk[1]'
 Slack : -2.045
-TNS   : -4.056
+TNS   : -4.089
 
 Type  : Slow 1200mV 85C Model Hold 'CLOCK_50'
-Slack : -0.594
-TNS   : -1.698
+Slack : -1.216
+TNS   : -9.345
+
+Type  : Slow 1200mV 85C Model Hold 'cpu:u9|clock_reg'
+Slack : -0.035
+TNS   : -0.035
 
 Type  : Slow 1200mV 85C Model Hold 'p1|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 0.379
+Slack : 0.384
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'I2C_AV_Config:u3|mI2C_CTRL_CLK'
-Slack : 0.385
+Slack : 0.386
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'KEYBOARD_DEC:u6|keyboard_clk_filt'
-Slack : 0.405
+Slack : 0.404
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'AUDIO_DAC:u4|oAUD_BCK'
@@ -67,59 +71,55 @@ Slack : 0.406
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'AUDIO_DAC:u4|LRCK_1X'
-Slack : 0.564
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'cpu:u9|clock_reg'
-Slack : 1.235
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Hold 'cpu:u9|bunsyuu_reg[4]'
-Slack : 1.330
+Slack : 0.563
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'cpu:u9|bunsyuu_reg[3]'
-Slack : 1.603
+Slack : 1.454
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'cpu:u9|bunsyuu_reg[4]'
+Slack : 1.841
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Recovery 'p1|altpll_component|auto_generated|pll1|clk[1]'
-Slack : -4.777
-TNS   : -63.089
+Slack : -4.768
+TNS   : -63.053
 
 Type  : Slow 1200mV 85C Model Recovery 'p1|altpll_component|auto_generated|pll1|clk[0]'
-Slack : -3.781
-TNS   : -275.748
+Slack : -3.797
+TNS   : -275.620
 
 Type  : Slow 1200mV 85C Model Recovery 'AUDIO_DAC:u4|LRCK_1X'
-Slack : -3.086
-TNS   : -18.106
-
-Type  : Slow 1200mV 85C Model Recovery 'CLOCK_50'
-Slack : -2.522
-TNS   : -111.918
+Slack : -3.089
+TNS   : -18.124
 
 Type  : Slow 1200mV 85C Model Recovery 'AUDIO_DAC:u4|oAUD_BCK'
-Slack : -2.373
-TNS   : -9.492
+Slack : -2.847
+TNS   : -11.388
+
+Type  : Slow 1200mV 85C Model Recovery 'CLOCK_50'
+Slack : -2.503
+TNS   : -123.886
 
 Type  : Slow 1200mV 85C Model Removal 'p1|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 1.875
+Slack : 2.170
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Removal 'CLOCK_50'
-Slack : 2.472
-TNS   : 0.000
-
-Type  : Slow 1200mV 85C Model Removal 'AUDIO_DAC:u4|oAUD_BCK'
-Slack : 2.666
+Slack : 2.473
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Removal 'AUDIO_DAC:u4|LRCK_1X'
-Slack : 2.982
+Slack : 2.984
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'AUDIO_DAC:u4|oAUD_BCK'
+Slack : 3.160
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Removal 'p1|altpll_component|auto_generated|pll1|clk[1]'
-Slack : 3.215
+Slack : 3.216
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK_50'
@@ -159,7 +159,7 @@ Slack : 9.818
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'p1|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 19.687
+Slack : 19.691
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'p1|altpll_component|auto_generated|pll1|clk[1]'
@@ -167,123 +167,123 @@ Slack : 27.478
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Setup 'p1|altpll_component|auto_generated|pll1|clk[0]'
-Slack : -18.392
-TNS   : -7003.403
-
-Type  : Slow 1200mV 0C Model Setup 'CLOCK_50'
-Slack : -16.001
-TNS   : -3270.479
+Slack : -18.558
+TNS   : -7211.924
 
 Type  : Slow 1200mV 0C Model Setup 'cpu:u9|clock_reg'
-Slack : -15.146
-TNS   : -14509.449
+Slack : -17.670
+TNS   : -16943.571
+
+Type  : Slow 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -16.988
+TNS   : -3425.744
 
 Type  : Slow 1200mV 0C Model Setup 'cpu:u9|bunsyuu_reg[4]'
-Slack : -11.610
-TNS   : -242.413
+Slack : -13.096
+TNS   : -299.860
 
 Type  : Slow 1200mV 0C Model Setup 'cpu:u9|bunsyuu_reg[3]'
-Slack : -2.554
-TNS   : -72.188
+Slack : -2.968
+TNS   : -73.893
 
 Type  : Slow 1200mV 0C Model Setup 'I2C_AV_Config:u3|mI2C_CTRL_CLK'
-Slack : -1.889
-TNS   : -88.575
+Slack : -1.979
+TNS   : -88.224
 
 Type  : Slow 1200mV 0C Model Setup 'KEYBOARD_DEC:u6|keyboard_clk_filt'
-Slack : -1.544
-TNS   : -15.549
+Slack : -1.262
+TNS   : -13.922
 
 Type  : Slow 1200mV 0C Model Setup 'AUDIO_DAC:u4|LRCK_1X'
-Slack : -1.051
-TNS   : -5.944
+Slack : -1.052
+TNS   : -5.950
 
 Type  : Slow 1200mV 0C Model Setup 'AUDIO_DAC:u4|oAUD_BCK'
-Slack : -0.101
-TNS   : -0.193
+Slack : -0.085
+TNS   : -0.156
 
 Type  : Slow 1200mV 0C Model Setup 'p1|altpll_component|auto_generated|pll1|clk[1]'
-Slack : 1.063
+Slack : 1.095
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'p1|altpll_component|auto_generated|pll1|clk[1]'
 Slack : -1.904
-TNS   : -3.773
+TNS   : -3.807
 
 Type  : Slow 1200mV 0C Model Hold 'CLOCK_50'
-Slack : -0.485
-TNS   : -1.177
+Slack : -1.058
+TNS   : -8.034
 
-Type  : Slow 1200mV 0C Model Hold 'p1|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 0.336
+Type  : Slow 1200mV 0C Model Hold 'cpu:u9|clock_reg'
+Slack : 0.007
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'I2C_AV_Config:u3|mI2C_CTRL_CLK'
+Type  : Slow 1200mV 0C Model Hold 'p1|altpll_component|auto_generated|pll1|clk[0]'
 Slack : 0.338
 TNS   : 0.000
 
-Type  : Slow 1200mV 0C Model Hold 'AUDIO_DAC:u4|oAUD_BCK'
-Slack : 0.355
+Type  : Slow 1200mV 0C Model Hold 'I2C_AV_Config:u3|mI2C_CTRL_CLK'
+Slack : 0.339
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'KEYBOARD_DEC:u6|keyboard_clk_filt'
-Slack : 0.356
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'AUDIO_DAC:u4|oAUD_BCK'
+Slack : 0.357
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'AUDIO_DAC:u4|LRCK_1X'
-Slack : 0.516
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'cpu:u9|clock_reg'
-Slack : 1.107
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Hold 'cpu:u9|bunsyuu_reg[4]'
-Slack : 1.172
+Slack : 0.517
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'cpu:u9|bunsyuu_reg[3]'
-Slack : 1.480
+Slack : 1.389
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'cpu:u9|bunsyuu_reg[4]'
+Slack : 1.696
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Recovery 'p1|altpll_component|auto_generated|pll1|clk[1]'
-Slack : -4.249
-TNS   : -55.953
+Slack : -4.236
+TNS   : -55.902
 
 Type  : Slow 1200mV 0C Model Recovery 'p1|altpll_component|auto_generated|pll1|clk[0]'
-Slack : -3.255
-TNS   : -235.295
+Slack : -3.268
+TNS   : -235.619
 
 Type  : Slow 1200mV 0C Model Recovery 'AUDIO_DAC:u4|LRCK_1X'
-Slack : -2.743
-TNS   : -16.096
-
-Type  : Slow 1200mV 0C Model Recovery 'CLOCK_50'
-Slack : -2.131
-TNS   : -93.399
+Slack : -2.744
+TNS   : -16.102
 
 Type  : Slow 1200mV 0C Model Recovery 'AUDIO_DAC:u4|oAUD_BCK'
-Slack : -2.113
-TNS   : -8.452
+Slack : -2.528
+TNS   : -10.112
+
+Type  : Slow 1200mV 0C Model Recovery 'CLOCK_50'
+Slack : -2.119
+TNS   : -104.639
 
 Type  : Slow 1200mV 0C Model Removal 'p1|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 1.698
+Slack : 1.962
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Removal 'CLOCK_50'
-Slack : 2.204
-TNS   : 0.000
-
-Type  : Slow 1200mV 0C Model Removal 'AUDIO_DAC:u4|oAUD_BCK'
-Slack : 2.493
+Slack : 2.203
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Removal 'AUDIO_DAC:u4|LRCK_1X'
-Slack : 2.773
+Slack : 2.775
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Removal 'p1|altpll_component|auto_generated|pll1|clk[1]'
-Slack : 2.841
+Slack : 2.842
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'AUDIO_DAC:u4|oAUD_BCK'
+Slack : 2.927
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
@@ -323,7 +323,7 @@ Slack : 9.828
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'p1|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 19.681
+Slack : 19.683
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'p1|altpll_component|auto_generated|pll1|clk[1]'
@@ -331,59 +331,63 @@ Slack : 27.463
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Setup 'p1|altpll_component|auto_generated|pll1|clk[0]'
-Slack : -9.901
-TNS   : -3754.300
-
-Type  : Fast 1200mV 0C Model Setup 'CLOCK_50'
-Slack : -8.459
-TNS   : -1620.453
+Slack : -9.987
+TNS   : -3875.111
 
 Type  : Fast 1200mV 0C Model Setup 'cpu:u9|clock_reg'
-Slack : -8.017
-TNS   : -7640.880
+Slack : -9.537
+TNS   : -9073.517
+
+Type  : Fast 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -9.064
+TNS   : -1718.409
 
 Type  : Fast 1200mV 0C Model Setup 'cpu:u9|bunsyuu_reg[4]'
-Slack : -6.082
-TNS   : -103.044
+Slack : -6.807
+TNS   : -139.034
 
 Type  : Fast 1200mV 0C Model Setup 'cpu:u9|bunsyuu_reg[3]'
-Slack : -1.003
-TNS   : -14.932
+Slack : -1.211
+TNS   : -15.738
 
 Type  : Fast 1200mV 0C Model Setup 'I2C_AV_Config:u3|mI2C_CTRL_CLK'
-Slack : -0.536
-TNS   : -20.653
+Slack : -0.577
+TNS   : -20.407
 
 Type  : Fast 1200mV 0C Model Setup 'KEYBOARD_DEC:u6|keyboard_clk_filt'
-Slack : -0.408
-TNS   : -1.692
+Slack : -0.241
+TNS   : -1.711
 
 Type  : Fast 1200mV 0C Model Setup 'AUDIO_DAC:u4|LRCK_1X'
-Slack : -0.062
-TNS   : -0.310
+Slack : -0.063
+TNS   : -0.315
 
 Type  : Fast 1200mV 0C Model Setup 'AUDIO_DAC:u4|oAUD_BCK'
-Slack : 0.398
+Slack : 0.406
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Setup 'p1|altpll_component|auto_generated|pll1|clk[1]'
-Slack : 0.457
+Slack : 0.491
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'p1|altpll_component|auto_generated|pll1|clk[1]'
 Slack : -1.030
-TNS   : -2.025
+TNS   : -2.060
 
 Type  : Fast 1200mV 0C Model Hold 'CLOCK_50'
-Slack : -0.404
-TNS   : -2.013
+Slack : -0.702
+TNS   : -6.759
 
-Type  : Fast 1200mV 0C Model Hold 'p1|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 0.157
-TNS   : 0.000
+Type  : Fast 1200mV 0C Model Hold 'cpu:u9|clock_reg'
+Slack : -0.264
+TNS   : -1.620
 
 Type  : Fast 1200mV 0C Model Hold 'I2C_AV_Config:u3|mI2C_CTRL_CLK'
 Slack : 0.172
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'p1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.173
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'KEYBOARD_DEC:u6|keyboard_clk_filt'
@@ -395,64 +399,60 @@ Slack : 0.181
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'AUDIO_DAC:u4|LRCK_1X'
-Slack : 0.233
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'cpu:u9|clock_reg'
-Slack : 0.582
-TNS   : 0.000
-
-Type  : Fast 1200mV 0C Model Hold 'cpu:u9|bunsyuu_reg[4]'
-Slack : 0.675
+Slack : 0.235
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'cpu:u9|bunsyuu_reg[3]'
-Slack : 0.708
+Slack : 0.618
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'cpu:u9|bunsyuu_reg[4]'
+Slack : 0.795
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Recovery 'p1|altpll_component|auto_generated|pll1|clk[1]'
-Slack : -2.654
-TNS   : -35.300
+Slack : -2.643
+TNS   : -35.256
 
 Type  : Fast 1200mV 0C Model Recovery 'p1|altpll_component|auto_generated|pll1|clk[0]'
-Slack : -1.661
-TNS   : -119.806
+Slack : -1.665
+TNS   : -119.800
 
 Type  : Fast 1200mV 0C Model Recovery 'AUDIO_DAC:u4|LRCK_1X'
-Slack : -1.347
-TNS   : -7.867
+Slack : -1.349
+TNS   : -7.879
 
 Type  : Fast 1200mV 0C Model Recovery 'AUDIO_DAC:u4|oAUD_BCK'
-Slack : -0.948
-TNS   : -3.792
+Slack : -1.221
+TNS   : -4.884
 
 Type  : Fast 1200mV 0C Model Recovery 'CLOCK_50'
-Slack : -0.894
-TNS   : -37.724
+Slack : -0.886
+TNS   : -43.412
 
 Type  : Fast 1200mV 0C Model Removal 'p1|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 0.887
+Slack : 1.045
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Removal 'CLOCK_50'
 Slack : 1.320
 TNS   : 0.000
 
-Type  : Fast 1200mV 0C Model Removal 'AUDIO_DAC:u4|oAUD_BCK'
-Slack : 1.507
-TNS   : 0.000
-
 Type  : Fast 1200mV 0C Model Removal 'AUDIO_DAC:u4|LRCK_1X'
-Slack : 1.698
+Slack : 1.702
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Removal 'p1|altpll_component|auto_generated|pll1|clk[1]'
 Slack : 1.721
 TNS   : 0.000
 
+Type  : Fast 1200mV 0C Model Removal 'AUDIO_DAC:u4|oAUD_BCK'
+Slack : 1.795
+TNS   : 0.000
+
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
 Slack : -3.000
-TNS   : -615.952
+TNS   : -612.457
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'cpu:u9|clock_reg'
 Slack : -1.000
@@ -487,11 +487,11 @@ Slack : 9.432
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'p1|altpll_component|auto_generated|pll1|clk[0]'
-Slack : 19.757
+Slack : 19.756
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'p1|altpll_component|auto_generated|pll1|clk[1]'
-Slack : 27.552
+Slack : 27.551
 TNS   : 0.000
 
 ------------------------------------------------------------
